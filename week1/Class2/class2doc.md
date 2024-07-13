@@ -107,5 +107,152 @@ JavaScript is a text-based programming language used both on the client-side and
 15. word-break - Specifies line breaking rules
 16. word-wrap - Allows long, unbreakable words to be broken and wrap to the next line
 17. text-overflow - Specifies what should happen when text overflows the containing element
-18. vertical-align - Sets the vertical alignment of an element
-19. 
+18. vertical-align - Sets the vertical alignment of an element  
+19. display - Specifies the type of rendering box used for an element
+20. visibility - Specifies whether an element is visible or hidden
+21. opacity - Sets the opacity level for an element
+22. z-index - Sets the stack order of a positioned element
+23. position - Specifies the type of positioning method used for an element
+24. top - Sets the top edge of an element
+25. right - Sets the right edge of an element
+26. bottom - Sets the bottom edge of an element
+27. left - Sets the left edge of an element
+28. margin - Sets the margin of an element
+29. padding - Sets the padding of an element
+30. border - Sets all the border properties in one declaration
+31. border-width - Sets the width of the border
+32. border-style - Sets the style of the border
+33. border-color - Sets the color of the border
+34. border-radius - Sets the radius of the border
+35. background-color - Sets the background color of an element
+36. background-image - Sets the background image of an element
+37. background-repeat - Sets how a background image will be repeated
+38. background-position - Sets the starting position of a background image
+39. background-size - Sets the size of the background image
+40. background-attachment - Sets whether a background image is fixed or scrolls with the rest of the page
+41. background - Sets all the background properties in one declaration
+42. box-shadow - Attaches one or more shadows to an element
+43. text-shadow - Adds shadow to text
+44. outline - Sets all the outline properties in one declaration
+45. outline-width - Sets the width of an outline
+46. outline-style - Sets the style of an outline
+
+# Quwstion: how to know the css properties of any element?
+Answer: Right click on the element and click on inspect. You will see the css properties of that element.
+@ Note: You can also change the css properties of that element and see the changes in real time. 
+# Question: How to know the html tags of any element?
+Answer: Right click on the element and click on inspect. You will see the html tags of that element.
+@ Note: You can also change the html tags of that element and see the changes in real time.
+# Question: How to know this style is aplicable on which element?
+Answer: Right click on the element and click on inspect. You will see the css properties of that element. You can also see the element on which this style is aplicable.
+# example: 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+```
+# Question: How to know the css properties of any element`
+Answer: Right click on the element and click on inspect. You will see the css properties of that element.
+@ Note: You can also change the css properties of that element and see the changes in real time.
+
+# Question: what structure of css to apply on any element in html for designing?
+Answer:  <style> tag is used to apply css on any element in html.
+# example:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+```
+# Question: How to apply css on multiple elements in html?
+Answer: You can apply css on multiple elements in html by using class or id.
+# example:
+```html
+
+
+
+# Mostly Used JavaScript Methods
+1. getElementById() - Returns the element that has the ID attribute with the specified value
+2. getElementsByClassName() - Returns a collection of all elements in the document with the specified class name
+3. getElementsByTagName() - Returns a collection of all elements in the document with the specified tag name
+4. querySelector() - Returns the first element that matches a specified CSS selector(s) in the document
+5. querySelectorAll() - Returns all elements in the document that matches a specified CSS selector(s), as a static NodeList object
+6. addEventListener() - Attaches an event handler to the specified element
+7. removeEventListener() - Removes an event handler that has been attached with the addEventListener() method
+8. preventDefault() - Prevents the default action of the event
+9. stopPropagation() - Prevents further propagation of the current event in the capturing and bubbling phases
+10. createElement() - Creates an Element Node with the specified name
+11. createTextNode() - Creates a Text Node with the specified text
+12. appendChild() - Appends a node as the last child of a node
+13. removeChild() - Removes a child node from a node
+14. replaceChild() - Replaces a child node in a node
+15. insertBefore() - Inserts a new child node before a specified, existing, child node
+16. getAttribute() - Returns the value of the attribute with the specified name, of an element
+17. setAttribute() - Sets the value of an attribute on the specified element
+18. removeAttribute() - Removes the specified attribute from an element
+19. getAttributeNode() - Returns the specified attribute node
+20. setAttributeNode() - Sets the specified attribute node
+21. removeAttributeNode() - Removes the specified attribute node, and returns the removed node
+22. getElementsByTagName() - Returns a collection of all elements in the document with the specified tag name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# project1[]: # Path: week1/Class2/project1.md
+# Project 1: Create a Simple Web Page using HTML and CSS
+Create a simple web page using HTML and CSS. The web page should contain the following elements:
+1. A header with a title
+2. A navigation bar with links to different sections of the page
+3. A main content area with text and images
+4. A sidebar with additional information
+5. A footer with contact information
+6. Use CSS to style the web page and make it visually appealing
+7. Use CSS to make the web page responsive so that it looks good on different screen sizes
+8. Use CSS to add animations or transitions to the web page to make it more interactive
+9. Use CSS to add hover effects to links or buttons on the web page
+10. Use CSS to add a background image or color to the web page
+11. Use CSS to add a border or shadow effect to elements on the web page
+
+# project2[]: # Path: week1/Class2/project2.md
+# Project 2: Create a Simple Web Page using HTML, CSS, and JavaScript
+Create a simple web page using HTML, CSS, and JavaScript. The web page should contain the following elements:
+1. A header with a title
+2. A navigation bar with links to different sections of the page
+3. A main content area with text and images
+4. A sidebar with additional information
+5. A footer with contact information
+6. Use CSS to style the web page and make it visually appealing
